@@ -1,4 +1,3 @@
-import { beliefs } from '../data/siteData';
 import './About.css';
 
 const About = () => (

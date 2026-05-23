@@ -1,7 +1,4 @@
-import { projects } from '../data/siteData';
 import './Work.css';
-
-const statusColors = { live: '#34D399', building: '#FBBF24', concept: '#8A8A9E' };
 
 const Work = () => (
   // <section id="work">
@@ -115,7 +112,7 @@ const Work = () => (
               <span className="work-tag">Browser API</span>
               <span className="work-tag">JavaScript</span>
             </div>
-            <a href="#" className="work-link">
+            <a href="/" className="work-link">
               View Project
               <svg width={12} height={12} viewBox="0 0 12 12" fill="none">
                 <path

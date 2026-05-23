@@ -1,8 +1,7 @@
-import { categories } from '../data/siteData';
 import './Categories.css';
 
 const Categories = () => (
-   <section id="categories">
+    <section id="categories">
     <div className="container">
       <div className="categories-header">
         <div className="section-label reveal">What We Build</div>

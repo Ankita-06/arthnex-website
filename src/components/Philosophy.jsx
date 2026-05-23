@@ -1,4 +1,3 @@
-import { principles } from '../data/siteData';
 import './Philosophy.css';
 
 const Philosophy = () => (

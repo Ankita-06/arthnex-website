@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       <nav id="nav" className={scrolled ? 'scrolled' : ''}>
         <a href="#hero" className="nav-logo">
-          Arthnex 
+          Arthnex <span />
         </a>
 
         <div className="nav-links">

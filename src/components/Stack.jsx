@@ -1,4 +1,3 @@
-import { stackCategories } from '../data/siteData';
 import './Stack.css';
 
 const Stack = () => (
