@@ -157,7 +157,7 @@ const Work = () => (
               <span className="work-tag">Next.js</span>
               <span className="work-tag">Platform</span>
             </div>
-            <a href="#" className="work-link">
+            <a href="/" className="work-link">
               Coming Soon
               <svg width={12} height={12} viewBox="0 0 12 12" fill="none">
                 <path
@@ -215,7 +215,7 @@ const Work = () => (
               <span className="work-tag">React Native</span>
               <span className="work-tag">Finance</span>
             </div>
-            <a href="#" className="work-link">
+            <a href="/" className="work-link">
               In Stealth
               <svg width={12} height={12} viewBox="0 0 12 12" fill="none">
                 <path

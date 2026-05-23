@@ -1,4 +1,3 @@
-import { visionCards } from '../data/siteData';
 import './Vision.css';
 
 const Vision = () => (
