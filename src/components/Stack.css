@@ -1,0 +1,73 @@
+#stack { background: var(--bg-base); }
+
+.stack-header { margin-bottom: 56px; }
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.stack-category {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+
+.stack-category h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.stack-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.stack-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  font-size: 14px;
+  color: var(--text-secondary);
+  transition: all 0.25s;
+  font-weight: 400;
+}
+.stack-pill:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  background: var(--bg-hover);
+  transform: translateY(-2px);
+}
+
+.pill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pill-react { background: #61DAFB; }
+.pill-next { background: #fff; }
+.pill-native { background: #61DAFB; }
+.pill-flutter { background: #02569B; }
+.pill-node { background: #68A063; }
+.pill-ts { background: #3178C6; }
+.pill-firebase { background: #FFCA28; }
+.pill-tailwind { background: #38BDF8; }
+.pill-figma { background: #F24E1E; }
+.pill-git { background: #F05032; }
+.pill-vercel { background: #fff; }
+.pill-supabase { background: #3ECF8E; }
+
+@media (max-width: 768px) {
+  .stack-grid { grid-template-columns: 1fr; }
+}

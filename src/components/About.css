@@ -1,0 +1,166 @@
+ #about {
+   background: var(--bg-base);
+ }
+
+ .about-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: clamp(40px, 6vw, 100px);
+   align-items: center;
+ }
+
+ .about-visual {
+   position: relative;
+   height: clamp(320px, 40vw, 500px);
+   border-radius: var(--radius-xl);
+   overflow: hidden;
+   border: 1px solid var(--border);
+ }
+
+ .about-visual-inner {
+   position: absolute;
+   inset: 0;
+   background: var(--bg-surface);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .code-window {
+   width: 85%;
+   background: var(--bg-void);
+   border-radius: var(--radius-md);
+   border: 1px solid var(--border);
+   overflow: hidden;
+ }
+
+ .code-titlebar {
+   display: flex;
+   align-items: center;
+   gap: 7px;
+   padding: 10px 16px;
+   border-bottom: 3px solid var(--border);
+   background: var(--bg-void);
+ }
+
+ .code-dot {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+ }
+
+ .code-dot.red {
+   background: #FF5F57;
+ }
+
+ .code-dot.yellow {
+   background: #FFBD2E;
+ }
+
+ .code-dot.green {
+   background: #28C840;
+ }
+
+ .code-filename {
+   font-family: var(--font-mono);
+   font-size: 11px;
+   color: var(--text-muted);
+   margin-left: 8px;
+ }
+
+ .code-body {
+   padding: 20px;
+   font-family: var(--font-mono);
+   font-size: 12px;
+   line-height: 1.8;
+ }
+
+ .c-purple {
+   color: #A78BFA;
+ }
+
+ .c-blue {
+   color: #60A5FA;
+ }
+
+ .c-green {
+   color: #34D399;
+ }
+
+ .c-orange {
+   color: #FB923C;
+ }
+
+ .c-gray {
+   color: var(--text-muted);
+ }
+
+ .c-white {
+   color: var(--text-primary);
+ }
+
+ .c-teal {
+   color: var(--accent2);
+ }
+
+ .about-glow {
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   background: radial-gradient(circle, rgba(108, 99, 255, 0.15) 0%, transparent 70%);
+   bottom: -20px;
+   right: -20px;
+   pointer-events: none;
+ }
+
+ .about-text .section-sub {
+   max-width: 480px;
+   margin-bottom: 40px;
+ }
+
+ .belief-list {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+ }
+
+ .belief-item {
+   display: flex;
+   align-items: flex-start;
+   gap: 14px;
+   padding: 16px 20px;
+   border-radius: var(--radius-md);
+   border: 1px solid var(--border);
+   background: var(--bg-surface);
+   transition: border-color .2s, background .2s;
+ }
+
+ .belief-item:hover {
+   border-color: var(--accent);
+   background: var(--bg-elevated);
+ }
+
+ .belief-icon {
+   width: 36px;
+   height: 36px;
+   border-radius: var(--radius-sm);
+   background: var(--accent-dim);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+   font-size: 16px;
+ }
+
+ .belief-item h4 {
+   font-size: 14px;
+   font-weight: 500;
+   color: var(--text-primary);
+   margin-bottom: 3px;
+ }
+
+ .belief-item p {
+   font-size: 13px;
+   color: var(--text-muted);
+   line-height: 1.5;
+ }
