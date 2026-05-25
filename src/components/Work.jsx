@@ -57,7 +57,7 @@ const Work = () => (
               <span className="work-tag">Browser API</span>
               <span className="work-tag">JavaScript</span>
             </div>
-            <a href="/" className="work-link">
+            <a href="https://chromewebstore.google.com/detail/gckifafpocokcnjeefbgcnojdfndeggh?utm_source=item-share-cb" target="_blank" rel="noreferrer" className="work-link">
               View Project
               <svg width={12} height={12} viewBox="0 0 12 12" fill="none">
                 <path
