@@ -81,6 +81,7 @@ npm run build
 | Product | Status | Description |
 |---|---|---|
 | **ScreenerLens** | 🟢 Live | Chrome Extension for smarter in-browser research |
+| **ClassMitra** | 🟡 In Development | Digital operating system for India's local tuition ecosystem |
 | **ShaadiVerse** | 🟡 In Development | Digital platform reimagining the wedding experience |
 | **ArthGrow** | 🔵 Upcoming | Personal finance app for Indian savings patterns |
 
