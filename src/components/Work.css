@@ -435,3 +435,104 @@
     .work-link:hover {
       gap: 10px;
     }
+        @media (max-width: 1024px) {
+          .work-card-featured {
+            grid-column: span 2;
+            grid-template-columns: 1fr;
+          }
+    
+          .work-card-featured .work-card-visual {
+            min-height: 220px;
+          }
+        }
+    
+        @media (max-width: 768px) {
+          .work-grid {
+            grid-template-columns: 1fr;
+            gap: 16px;
+          }
+    
+          .work-card-featured {
+            grid-column: span 1;
+            grid-template-columns: 1fr;
+          }
+    
+          .work-card-visual {
+            min-height: 200px;
+          }
+    
+          .work-rings {
+            width: 120px;
+            height: 120px;
+          }
+    
+          .ring-1 {
+            width: 110px;
+            height: 110px;
+          }
+    
+          .ring-2 {
+            width: 78px;
+            height: 78px;
+          }
+    
+          .ring-3 {
+            width: 46px;
+            height: 46px;
+          }
+    
+          .work-card-body {
+            padding: 20px;
+          }
+    
+          .work-card-featured .work-card-body {
+            padding: 24px;
+          }
+    
+          .work-tags {
+            margin-bottom: 16px;
+          }
+        }
+    
+        @media (max-width: 480px) {
+          .work-card-visual {
+            min-height: 180px;
+          }
+    
+          .work-rings {
+            width: 100px;
+            height: 100px;
+          }
+    
+          .ring-1 {
+            width: 90px;
+            height: 90px;
+          }
+    
+          .ring-2 {
+            width: 64px;
+            height: 64px;
+          }
+    
+          .ring-3 {
+            width: 38px;
+            height: 38px;
+          }
+    
+          .work-card-body {
+            padding: 16px;
+          }
+    
+          .work-card-body h3 {
+            font-size: 18px;
+          }
+    
+          .work-card-body p {
+            font-size: 13px;
+          }
+    
+          .work-tag {
+            font-size: 10px;
+            padding: 3px 10px;
+          }
+        }
