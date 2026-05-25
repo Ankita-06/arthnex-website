@@ -125,3 +125,77 @@
   .cat-card:nth-child(6)::before {
     background: linear-gradient(90deg, transparent, var(--accent2), transparent);
   }
+    @media (max-width: 1024px) {
+      .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+      .categories-header {
+        max-width: 100%;
+        margin-bottom: 48px;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+  
+      .categories-header {
+        margin-bottom: 36px;
+      }
+  
+      .cat-card {
+        padding: 20px;
+      }
+  
+      .cat-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 18px;
+        margin-bottom: 14px;
+      }
+  
+      .cat-card h3 {
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+  
+      .cat-card p {
+        font-size: 13px;
+        margin-bottom: 14px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+  
+      .cat-card {
+        padding: 18px;
+      }
+  
+      .cat-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+  
+      .cat-card h3 {
+        font-size: 14px;
+      }
+  
+      .cat-card p {
+        font-size: 12px;
+        line-height: 1.6;
+      }
+  
+      .cat-tag {
+        font-size: 10px;
+        padding: 3px 10px;
+      }
+    }
