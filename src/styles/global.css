@@ -76,7 +76,14 @@ body::before {
 
 /* ─── SHARED SECTION STYLES ─── */
 section {
-  padding: var(--section-pad) clamp(20px, 5vw, 60px);
+  /* padding: var(--section-pad) clamp(20px, 5vw, 60px); */
+  padding-top: clamp(32px, 4vw, 50px);
+    /* small — just a little */
+    padding-bottom: clamp(60px, 8vw, 100px);
+    /* comfortable breathing room */
+    padding-left: clamp(20px, 5vw, 60px);
+    /* keep original left/right */
+    padding-right: clamp(20px, 5vw, 60px);
   position: relative;
 }
 

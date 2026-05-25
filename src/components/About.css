@@ -164,3 +164,78 @@
    color: var(--text-muted);
    line-height: 1.5;
  }
+
+ @media (max-width: 1024px) {
+   .about-grid {
+     grid-template-columns: 1fr;
+     gap: 40px;
+   }
+
+   .about-visual {
+     height: 320px;
+   }
+ }
+
+ @media (max-width: 768px) {
+   .about-grid {
+     grid-template-columns: 1fr;
+     gap: 32px;
+   }
+
+   .about-visual {
+     height: 280px;
+   }
+
+   .code-window {
+     width: 92%;
+   }
+
+   .code-body {
+     font-size: 11px;
+     padding: 14px;
+   }
+
+   .about-text .section-sub {
+     max-width: 100%;
+     margin-bottom: 24px;
+   }
+
+   .belief-item {
+     padding: 14px 16px;
+   }
+
+   .belief-icon {
+     width: 32px;
+     height: 32px;
+     font-size: 14px;
+   }
+
+   .belief-item h4 {
+     font-size: 13px;
+   }
+
+   .belief-item p {
+     font-size: 12px;
+   }
+ }
+
+ @media (max-width: 480px) {
+   .about-visual {
+     height: 240px;
+   }
+
+   .code-body {
+     font-size: 10px;
+     padding: 12px;
+     line-height: 1.6;
+   }
+
+   .belief-list {
+     gap: 12px;
+   }
+
+   .belief-item {
+     flex-direction: row;
+     padding: 12px 14px;
+   }
+ }

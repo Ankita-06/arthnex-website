@@ -252,8 +252,8 @@ export const contactWays = [
   {
     icon: '✉️',
     title: 'Email Us',
-    detail: 'hello@arthnex.com',
-    href: 'mailto:hello@arthnex.com',
+    detail: 'arthnex.tech@gmail.com',
+    href: 'mailto:arthnex.tech@gmail.com',
   },
   {
     icon: '𝕏',

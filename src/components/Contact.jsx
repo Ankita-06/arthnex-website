@@ -31,11 +31,11 @@ const Contact = ({ onToast }) => {
         <div className="contact-layout">
           <div className="contact-left reveal-left">
             <div className="contact-ways">
-              <a href="mailto:hello@arthnex.com" className="contact-way">
+              <a href="mailto:arthnex.tech@gmail.com" className="contact-way">
                 <div className="contact-way-icon">📧</div>
                 <div className="contact-way-text">
                   <h4>Drop an email</h4>
-                  <p>hello@arthnex.com</p>
+                  <p>arthnex.tech@gmail.com</p>
                 </div>
               </a>
               <a href="https://linkedin.com/company/arthnex" className="contact-way" target="_blank" rel="noreferrer">

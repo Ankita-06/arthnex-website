@@ -9,7 +9,7 @@ const Footer = () => (
         <a href="#about">About</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>
-        <a href="mailto:hello@arthnex.com">Email</a>
+        <a href="mailto:arthnex.tech@gmail.com">Email</a>
       </div>
     </div>
   </footer>
