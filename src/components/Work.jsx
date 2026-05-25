@@ -1,62 +1,7 @@
 import './Work.css';
 
 const Work = () => (
-  // <section id="work">
-  //   <div className="container">
-  //     <div className="work-header">
-  //       <div>
-  //         <div className="section-label reveal">Selected Work</div>
-  //         <h2 className="section-headline reveal delay-1">Products we're<br />proud of.</h2>
-  //       </div>
-  //       <p className="section-sub reveal delay-2" style={{ maxWidth: '360px', marginBottom: 0 }}>
-  //         Early-stage but never half-baked. Every product we ship reflects our full commitment.
-  //       </p>
-  //     </div>
-
-  //     <div className="work-grid">
-  //       {projects.map((project, i) => (
-  //         <div
-  //           key={project.id}
-  //           className={`work-card ${project.featured ? 'work-card-featured' : ''} reveal${i > 0 ? ` delay-${i}` : ''}`}
-  //         >
-  //           <div className={`work-card-visual ${project.artClass}`}>
-  //             <div className="work-art-dots" />
-  //             <div className="work-visual-art">
-  //               <div className="work-rings">
-  //                 <div className="ring ring-1" />
-  //                 <div className="ring ring-2" />
-  //                 <div className="ring ring-3" />
-  //                 <div className="ring-center">{project.initials}</div>
-  //               </div>
-  //             </div>
-  //           </div>
-  //           <div className="work-card-body">
-  //             <div
-  //               className="work-status"
-  //               style={{ color: statusColors[project.status], background: `${statusColors[project.status]}18`, border: `1px solid ${statusColors[project.status]}33` }}
-  //             >
-  //               {project.statusLabel}
-  //             </div>
-  //             <h3>{project.title}</h3>
-  //             <p>{project.desc}</p>
-  //             <div className="work-tags">
-  //               {project.tags.map((tag) => (
-  //                 <span key={tag} className="work-tag">{tag}</span>
-  //               ))}
-  //             </div>
-  //             <a href={project.link} className="work-link">
-  //               View Project
-  //               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-  //                 <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-  //               </svg>
-  //             </a>
-  //           </div>
-  //         </div>
-  //       ))}
-  //     </div>
-  //   </div>
-  // </section>
-    <section id="work">
+  <section id="work">
     <div className="container">
       <div
         style={{
@@ -125,8 +70,56 @@ const Work = () => (
             </a>
           </div>
         </div>
-        {/* ShaadiVerse */}
+
+        {/* ClassMitra */}
         <div className="work-card reveal delay-1">
+          <div className="work-card-visual classmitra-art">
+            <div className="work-visual-art">
+              <div className="work-rings classmitra-rings">
+                <div className="ring ring-1" />
+                <div className="ring ring-2" />
+                <div className="ring ring-3" />
+                <div
+                  className="ring-center"
+                  style={{
+                    background: "linear-gradient(135deg, #4F8EF7, #38C9B0)",
+                    fontSize: 10
+                  }}
+                >
+                  CM
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="work-card-body">
+            <div className="work-status status-beta">In Development</div>
+            <h3>ClassMitra</h3>
+            <p>
+              The digital operating system for India's local tuition ecosystem —
+              streamlining homework, attendance, fees, and progress tracking
+              while keeping teachers, parents, and students in sync.
+            </p>
+            <div className="work-tags">
+              <span className="work-tag">Mobile App</span>
+              <span className="work-tag">React Native</span>
+              <span className="work-tag">Education</span>
+            </div>
+            <a href="/" className="work-link">
+              Coming Soon
+              <svg width={12} height={12} viewBox="0 0 12 12" fill="none">
+                <path
+                  d="M1 6H11M11 6L6 1M11 6L6 11"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        {/* ShaadiVerse */}
+        <div className="work-card reveal delay-2">
           <div className="work-card-visual shaadi-art">
             <div className="work-visual-art">
               <div className="work-rings shaadi-rings">
@@ -170,8 +163,9 @@ const Work = () => (
             </a>
           </div>
         </div>
+
         {/* ArthGrow */}
-        <div className="work-card reveal delay-2">
+        <div className="work-card reveal delay-3">
           <div
             className="work-card-visual"
             style={{
@@ -228,6 +222,7 @@ const Work = () => (
             </a>
           </div>
         </div>
+
         {/* Placeholder */}
         <div className="work-card reveal delay-3">
           <div className="work-card-visual coming-art">
