@@ -287,3 +287,54 @@ section {
   /* #6C63FF */
   border-radius: 2px;
 }
+/* ─── MOBILE FIXES ─── */
+@media (max-width: 768px) {
+
+  /* Hide custom cursor on mobile/touch devices */
+  #cursor,
+  #cursor-ring {
+    display: none !important;
+  }
+
+  * {
+    cursor: auto !important;
+  }
+
+  /* Section padding tighter on mobile */
+  section {
+    padding-top: clamp(48px, 8vw, 80px);
+    padding-bottom: clamp(48px, 8vw, 80px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Headline size fix */
+  .section-headline {
+    font-size: clamp(28px, 7vw, 40px);
+    letter-spacing: -1px;
+  }
+
+  /* Section sub text */
+  .section-sub {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  /* Section label */
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section-headline {
+    font-size: clamp(26px, 8vw, 36px);
+    letter-spacing: -0.8px;
+  }
+}
