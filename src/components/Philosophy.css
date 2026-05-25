@@ -264,3 +264,78 @@
  .pill-supabase {
    background: #3ECF8E;
  }
+ @media (max-width: 1024px) {
+   .philosophy-layout {
+     grid-template-columns: 1fr;
+     gap: 40px;
+   }
+
+   .philosophy-left {
+     position: static;
+   }
+ }
+
+ @media (max-width: 768px) {
+   .philosophy-layout {
+     gap: 32px;
+   }
+
+   .principle-item {
+     padding: 20px 16px;
+     gap: 14px;
+   }
+
+   .principle-content h3 {
+     font-size: 15px;
+     margin-bottom: 6px;
+   }
+
+   .principle-content p {
+     font-size: 13px;
+     line-height: 1.6;
+   }
+
+   .principle-num {
+     font-size: 10px;
+     min-width: 20px;
+   }
+
+   /* Stack section */
+   .stack-header {
+     max-width: 100%;
+     margin-bottom: 40px;
+   }
+
+   .stack-categories {
+     gap: 28px;
+   }
+
+   .stack-pill {
+     padding: 8px 14px;
+     font-size: 13px;
+   }
+ }
+
+ @media (max-width: 480px) {
+   .principle-item {
+     padding: 16px 12px;
+     gap: 12px;
+   }
+
+   .principle-content h3 {
+     font-size: 14px;
+   }
+
+   .principle-content p {
+     font-size: 12px;
+   }
+
+   .stack-pills {
+     gap: 8px;
+   }
+
+   .stack-pill {
+     padding: 7px 12px;
+     font-size: 12px;
+   }
+ }
