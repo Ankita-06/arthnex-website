@@ -1,4 +1,6 @@
 import './Work.css';
+import screenerLensLogo from '../assets/ScreenerLens_logo.png';
+import classMitraLogo from '../assets/ClassMitra_logo.png';
 
 const Work = () => (
   <section id="work">
@@ -32,17 +34,20 @@ const Work = () => (
       <div className="work-grid">
         {/* Featured */}
         <div className="work-card work-card-featured reveal">
-          <div className="work-card-visual">
-            <div className="work-art-dots" />
-            <div className="work-visual-art">
-              <div className="work-rings">
-                <div className="ring ring-1" />
-                <div className="ring ring-2" />
-                <div className="ring ring-3" />
-                <div className="ring-center">SL</div>
-              </div>
-            </div>
-          </div>
+          <div className="work-card-visual" style={{ background: 'var(--bg-elevated)' }}>
+  <div className="work-visual-art">
+    <img
+      src={screenerLensLogo}
+      alt="ScreenerLens"
+      style={{
+        width: 220,
+        height: 220,
+        objectFit: 'contain',
+        // filter: 'drop-shadow(0 0 40px rgba(108,99,255,0.3))',
+      }}
+    />
+  </div>
+</div>
           <div className="work-card-body">
             <div className="work-status status-live">Live</div>
             <h3>ScreenerLens</h3>
@@ -73,24 +78,20 @@ const Work = () => (
 
         {/* ClassMitra */}
         <div className="work-card reveal delay-1">
-          <div className="work-card-visual classmitra-art">
-            <div className="work-visual-art">
-              <div className="work-rings classmitra-rings">
-                <div className="ring ring-1" />
-                <div className="ring ring-2" />
-                <div className="ring ring-3" />
-                <div
-                  className="ring-center"
-                  style={{
-                    background: "linear-gradient(135deg, #4F8EF7, #38C9B0)",
-                    fontSize: 10
-                  }}
-                >
-                  CM
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className="work-card-visual" style={{ background: 'var(--bg-elevated)' }}>
+  <div className="work-visual-art">
+    <img
+      src={classMitraLogo}
+      alt="ClassMitra"
+      style={{
+        width: '75%',
+        height: '75%',
+        objectFit: 'contain',
+        // filter: 'drop-shadow(0 0 30px rgba(79,142,247,0.25))',
+      }}
+    />
+  </div>
+</div>
           <div className="work-card-body">
             <div className="work-status status-beta">In Development</div>
             <h3>ClassMitra</h3>
